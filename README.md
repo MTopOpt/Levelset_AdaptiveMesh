@@ -6,7 +6,9 @@ Installation
 ------------
 Before running this solver, following softwares are needed.  
 (a) **OpenFOAM 6.0**  
+
 Note that Openfoam only support adaptive mesh refinement for 3D mesh !!! For 2D optimization cases, users should compile the code in folder "meshRefinement2D_of6" and link the dynamic library "libdynamicFvMeshUser.so" (see app/system/controlDict). 
+
 Thanks for Luca Cornolti who provided the source code for 2D adaptive mesh refinement solver(https://www.cfd-online.com/Forums/openfoam-community-contributions/118870-2d-adaptive-mesh-refinement-2.html#post703369).
 
 Run the solver
