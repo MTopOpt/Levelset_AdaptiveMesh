@@ -1,0 +1,5 @@
+copy src folder into $WM_PROJECT_USER_DIR folder and compile the code by running ./Allwmake script
+The structure of src folder traces the OpenFOAM src folder.
+
+damBreak_test folder has two tests based on interFoam damBreak tutorial . 
+One is for axial simmetryical geometry (damBreakCylinder) the other for a planar configuration (damBreakPlanar).
