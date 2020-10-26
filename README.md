@@ -22,3 +22,8 @@ After the optimization, users should run **reconstructPar** in the app folder an
 Solid displacement problem  
 -----------------------------
 ![image](https://github.com/MTopOpt/Levelset_AdaptiveMesh/blob/master/Levelset%2BAdaptiveMeshRefine/1.gif)  
+
+
+NOTE!
+-----
+A level set topology optimization solver **without** adaptive mesh refinement is also uploaded. Users could run this solver on both OpenFOAM 5.0 and 6.0.
